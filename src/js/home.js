@@ -40,7 +40,8 @@ export default function loadHome(target) {
 	p3.appendChild(p3Link);
 	p3.appendChild(p3TextNode2);
 
-	p3Link.addEventListener('click', () => {
+	p3Link.addEventListener('click', (e) => {
+		e.preventDefault();
 		alert(
 			'Hey, thanks for your interest! Unfortunately this is not a real taco restaurant.'
 		);
