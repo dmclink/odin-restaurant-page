@@ -133,6 +133,10 @@ summary {
 }
 
 /* GENERAL STYLES */
+html {
+	scrollbar-gutter: stable;
+}
+
 body {
 	color: var(--c3);
 }
