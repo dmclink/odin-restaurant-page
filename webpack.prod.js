@@ -1,9 +1,9 @@
-// webpack.config.js
+// webpack.prod.js
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	mode: 'development',
+	mode: 'production',
 	entry: './src/js/index.js',
 	output: {
 		filename: 'main.js',
